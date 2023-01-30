@@ -62,6 +62,7 @@ class URI_Auth {
     }
   }
 
+  // returns parameters as key-value-pairs
   getParams() {
     const params = {};
     for (const [key, value] of this.params) {
